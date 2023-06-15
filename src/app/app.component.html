@@ -1,0 +1,20 @@
+<div class="container">
+  <h4>Translate app with angular 4</h4>
+  <div class="btn-group">
+    <button *ngFor="let lang of supportedLanguages"
+        (click)="selectLanguage(lang.value)"
+        class="btn btn-default"
+        [class.selected]="currentLanguage == lang.value">
+      {{ lang.value }}
+    </button>
+  </div>
+  <div style="margin-top: 20px">
+    <div>
+      <i>hello world</i>: <strong>{{ 'hello world' | translate }}</strong>
+    </div>
+
+    <div>
+       <i>how you doing?</i>: <strong>{{ 'how you doing?' | translate }}</strong>
+    </div>
+  </div>
+</div>

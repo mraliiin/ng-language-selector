@@ -1,0 +1,26 @@
+button.selected {
+    color: red;
+}
+
+h4 {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+    background: #DDD;
+    min-height: 500px;
+}
+
+button {
+    cursor: pointer;
+    width: 50px;
+    padding: 10px;
+    border: solid 1px #999;
+    background: #FFF;
+    margin: 0 10px;
+    font-size: 20px;
+}
